@@ -1,0 +1,106 @@
+/* Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+
+    width: 90%;
+    margin: auto;
+   
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common Css End */
+
+.font{
+
+  height: 100px;
+  background: rgb(30, 201, 201);
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 10px #ccc;
+  
+}
+
+.font span i{
+
+  font-size: 30px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.sidebar{
+
+  background-color: rgba(0, 0, 0, .5);
+  width: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .7s;
+  opacity: 0;
+
+}
+.sidebar.active{
+
+  opacity: 1;
+  width: 100%;
+}
+.sidebar .menu{
+
+  background: #3258ff;
+  width: 80%;
+  max-width: 350px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.sidebar .menu li a{
+
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 0;
+  display: block;
+  text-transform: uppercase;
+}
+.sidebar .cross{
+
+  background: rgb(172, 175, 172);
+  color: #fff;
+  position: absolute;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  line-height: 10px;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
